@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:black;
+    padding:20px;
+}
+
+header h2{
+    display:inline;
+    color:#ff5fa2;
+}
+
+nav{
+    float:right;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+nav a:hover{
+    color: #f72b91;
+}
+
+.banner{
+    height:400px;
+    background:url(https://i.pinimg.com/736x/2f/66/f5/2f66f55edc842373666d133e9ab9a2fb.jpg) center;
+    background-size:cover;
+    padding:80px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.banner h1{
+    font-size:70px;
+}
+
+.banner p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    background:#ff5fa2;
+    color:white;
+    border-radius:5px;
+}
+
+.modelos p {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
+.modelos{
+    padding:50px;
+}
+
+.modelos h2{
+    margin-bottom:30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f093c2;
+}
+.cards{
+    text-align:center;
+}
+
+.card{
+    display:inline-block;
+    width:300px;
+    margin:10px;
+    background:#f093c2;
+    border-radius:10px;
+    padding:15px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.info{
+    background:#f72b91;
+    color:black;
+    padding:50px;
+    text-align:center;
+}
+
+.info ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+.info li{
+    margin:10px;
+}
+
+/* css da página sobre*/
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sobre{
+    text-align: center;
+    padding: 30px;
+}
+
+.sobre h1{
+    color: hotpink;
+    font-size: 40px;
+}
+
+.img-sobre{
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.caixa{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+}
+
+.caixa p{
+    line-height: 1.6;
+}
+
+table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid hotpink;
+    padding: 10px;
+}
+
+th{
+    background-color: hotpink;
+    color: white;
+}
+
+td{
+    background-color: #222;
+}
+h4{
+    color: #f093c2;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* css página contatos*/
+
+.contato{
+    background-color:#ffeef5;
+    min-height:80vh;
+    text-align:center;
+    padding:50px;
+    color: #f72b91;
+}
+
+.contato h3{
+    color:hotpink;
+}
+
+.contato h1{
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+table{
+    width:70%;
+    margin:auto;
+    border-collapse:collapse;
+    margin-top:30px;
+    color: #111;
+}
+
+th, td{
+    border:2px solid hotpink;
+    padding:15px;
+}
+
+th{
+    background-color:hotpink;
+    color:white;
+}
+
+td{
+    background-color:white;
+}
